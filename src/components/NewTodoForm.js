@@ -25,12 +25,12 @@ class NewTodoForm extends Component {
     render() {
         return (
             <form className="NewTodoForm" onSubmit={this.handleSubmit}>
-                <label htmlFor="task">New Todo</label>
+                <label htmlFor="task">New Task</label>
                 <input 
                     type="text"
                     name="task"
                     id="task"
-                    placeholder="New Todo"
+                    placeholder="e.g: Walk the ferret"
                     value={this.state.task}
                     onChange={this.handleChange}
                 />
