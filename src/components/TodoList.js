@@ -27,7 +27,7 @@ class TodoList extends Component {
         this.setState({
             todos: this.state.todos.filter(t => t.id !== id)
         })
-    }
+    }z
 
     update(id, updatedTask) {
         const updatedTodos = this.state.todos.map(todo => {
